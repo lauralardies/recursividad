@@ -36,8 +36,8 @@ def dicotomia_recursiva (tabla, i, j, t):
     return posicion_t
 
 while True:
-    print("Crea una lista de números enteros de menor a mayor.")
-    
+    print("Crea una lista de números enteros de menor a mayor seguidos.")
+
     tabla = []
     n = int(input("Introduce el número de elementos que quieres en tu lista: "))
     for i in range (0, n):
