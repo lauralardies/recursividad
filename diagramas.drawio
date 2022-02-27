@@ -1,0 +1,71 @@
+<mxfile host="65bd71144e">
+    <diagram id="dimBb1iMNT5IEici7T_M" name="dicotomía">
+        <mxGraphModel dx="974" dy="396" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="7a_jcyCD100a6VkvH1Ig-1" value="Búsqueda" style="swimlane;" vertex="1" parent="1">
+                    <mxGeometry x="260" y="130" width="200" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="7a_jcyCD100a6VkvH1Ig-2" value="tabla : 1 Cadena&lt;br&gt;i, j, k : 1 Número&lt;br&gt;t : 1 Número" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="7a_jcyCD100a6VkvH1Ig-1">
+                    <mxGeometry x="50" y="30" width="100" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="7a_jcyCD100a6VkvH1Ig-4" value="tabla_ordenada()&lt;br&gt;dicotomia_recursiva()" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="7a_jcyCD100a6VkvH1Ig-1">
+                    <mxGeometry x="35" y="85" width="130" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="7a_jcyCD100a6VkvH1Ig-3" value="" style="endArrow=none;html=1;" edge="1" parent="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="260" y="210" as="sourcePoint"/>
+                        <mxPoint x="460" y="210" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+    <diagram id="joxvthguOAO4U7kra3yP" name="palíndromos">
+        <mxGraphModel dx="974" dy="396" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="v9i-YAywN6epYMx9S4ai-0"/>
+                <mxCell id="v9i-YAywN6epYMx9S4ai-1" parent="v9i-YAywN6epYMx9S4ai-0"/>
+                <mxCell id="9cw2NkQjilEPFSTolgAC-0" value="Palindromo" style="swimlane;" vertex="1" parent="v9i-YAywN6epYMx9S4ai-1">
+                    <mxGeometry x="320" y="110" width="200" height="180" as="geometry"/>
+                </mxCell>
+                <mxCell id="9cw2NkQjilEPFSTolgAC-1" value="frase : 1 Texto&lt;br&gt;p : 1 Booleano" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="9cw2NkQjilEPFSTolgAC-0">
+                    <mxGeometry x="55" y="30" width="90" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="9cw2NkQjilEPFSTolgAC-2" value="" style="endArrow=none;html=1;" edge="1" parent="9cw2NkQjilEPFSTolgAC-0">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint y="70" as="sourcePoint"/>
+                        <mxPoint x="200" y="70" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="9cw2NkQjilEPFSTolgAC-4" value="alfabetico()&lt;br&gt;cifra()&lt;br&gt;alfanumerico()&lt;br&gt;mayusculas()&lt;br&gt;acento()&lt;br&gt;es_palindromo()" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="9cw2NkQjilEPFSTolgAC-0">
+                    <mxGeometry x="50" y="80" width="100" height="90" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+    <diagram id="L5WSW89p3HnLNmQMhIqp" name="bandera">
+        <mxGraphModel dx="974" dy="396" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="TUynEw2EwdXYlJrGMzl_-0"/>
+                <mxCell id="TUynEw2EwdXYlJrGMzl_-1" parent="TUynEw2EwdXYlJrGMzl_-0"/>
+                <mxCell id="O8MVIbuSKMuWWipIIoYo-0" value="Bandera de Dijkstra" style="swimlane;" vertex="1" parent="TUynEw2EwdXYlJrGMzl_-1">
+                    <mxGeometry x="320" y="90" width="200" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="O8MVIbuSKMuWWipIIoYo-1" value="bandera : 1 Cadena&lt;br&gt;i, j, k : 1 Número" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="O8MVIbuSKMuWWipIIoYo-0">
+                    <mxGeometry x="40" y="30" width="120" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="O8MVIbuSKMuWWipIIoYo-3" value="intercambiar()&lt;br&gt;permutar()" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="O8MVIbuSKMuWWipIIoYo-0">
+                    <mxGeometry x="49" y="80" width="90" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="O8MVIbuSKMuWWipIIoYo-2" value="" style="endArrow=none;html=1;" edge="1" parent="TUynEw2EwdXYlJrGMzl_-1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="320" y="160" as="sourcePoint"/>
+                        <mxPoint x="520" y="160" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
