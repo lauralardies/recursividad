@@ -14,16 +14,16 @@ def dicotomia_recursiva (tabla, i, j, t):
     m = (i + j) // 2 # La posición que se encuentra en la mitad de la lista
     posicion_t = -1 # La posición todavía no se ha encontrado.
 
-    if j != i:
+    if j >= i:
    
         if tabla[m] == t:
             posicion_t = m
 
         elif tabla[m] < t:
-            posicion_t = dicotomia_recursiva(tabla, m+1, len(tabla)-1, t) # Sabemos que el número es mayor que la mitad inferior de la tabla. Por lo tanto, reducimos la búsqueda.
+            posicion_t = dicotomia_recursiva(tabla, m+1, j, t) # Sabemos que el número es mayor que la mitad inferior de la tabla. Por lo tanto, reducimos la búsqueda.
 
         elif tabla[m] > t:
-            posicion_t = dicotomia_recursiva(tabla, 0, m-1, t) # Sabemos que el número es menor que la mitad superior de la tabla. Por lo tanto, reducimos la búsqueda.
+            posicion_t = dicotomia_recursiva(tabla, i, m-1, t) # Sabemos que el número es menor que la mitad superior de la tabla. Por lo tanto, reducimos la búsqueda.
 
     if (posicion_t != -1):
         return posicion_t
